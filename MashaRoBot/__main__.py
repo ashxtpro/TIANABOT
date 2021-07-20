@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is ༒ 𝙏𝙄𝘼𝙉𝘼 ༒
+PM_START_TEXT = """Hello, My name is SURTUR
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
@@ -85,7 +85,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒ 𝙏𝙄𝘼𝙉𝘼 ༒ TO YOUR GROUP ➕️", url="t.me/Tiana_Prince_bot?startgroup=true"),
+            text="➕️ ADD ༒ SURTUR ༒ TO YOUR GROUP ➕️", url="t.me/SURTUR_bot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -93,24 +93,24 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="🎵 MUSIC GROUP 🎧", url="http://t.me/MUSIC_AND_CHATS")
+            text="GROUP", url="http://t.me/kochi_hevan")
    ],
    [
         InlineKeyboardButton(
-            text="✨MY BF✨", url="http://t.me/prince_3011"),
+            text="✨OWNER✨", url="http://t.me/god_of_marvels"),
         InlineKeyboardButton(
-            text="⚜️CHANNEL⚜️", url="https://t.me/PRINCEBOTS"),
+            text="⚜️CHANNEL⚜️", url="https://t.me/statmedia"),
     ],
     [  
-        InlineKeyboardButton(text="👥SUPPORT GROUP👥", url="https://t.me/PRINCEBOTSUPPORT"),
+        InlineKeyboardButton(text="👥support👥", url="https://t.me/kochi_hevan"),
     ], 
     
 ]
 
 HELP_STRINGS = """
-༒ 𝙏𝙄𝘼𝙉𝘼 ༒ WITH NEW FEATURES
+SURTUR WITH NEW FEATURES
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF TIANA*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF SURTUR*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
@@ -118,7 +118,7 @@ HELP_STRINGS = """
 """
 
 
-DONATE_STRING ="""CONTACT ME ON @PRINCE_3011"""
+DONATE_STRING ="""CONTACT ME ON @god_of_marvels"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -363,7 +363,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *TIANA*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *SURTUR*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -371,8 +371,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Masha's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/prince301102/tiana-2.0).
-                 If you have any question about masha, let us know at @princebotsupport.""",
+                 Here is the [💾Repository](https://github.com).
+                 If you have any question about surtur, let us know at @kochi_hevan.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -398,8 +398,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *TIANA BOT*
-                 \nHere is the [Source Code](https://GitHub.com/prince301102/tiana-2.0) .""",
+            text=""" Hi..🤗 I'm *SURTUR*
+                 \nHere is the [Source Code](https://GitHub.com) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
