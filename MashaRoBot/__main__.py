@@ -114,7 +114,7 @@ SURTUR WITH NEW FEATURES
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
-𖣘 *If you facing any issue or find any bugs in any command then you can report it in @PRINCEBOTSUPPORT*
+𖣘 *If you facing any issue or find any bugs in any command then you can report it in @kochi_hevan*
 """
 
 
