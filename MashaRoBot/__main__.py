@@ -74,18 +74,18 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = """Hello, My name is SURTUR
+PM_START_TEXT = """Hello, My name is NICK_FURY
 
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Pro bot was made by [SURTUR](https://t.me/god_of_marvels)
+This Pro bot was made by [IN CK_FURY](https://t.me/god_of_marvels)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ༒ SURTUR ༒ TO YOUR GROUP ➕️", url="t.me/SURTUR_bot?startgroup=true"),
+            text="➕️ ADD ༒ NICK_FURY ༒ TO YOUR GROUP ➕️", url="t.me/Nick_Furybot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱ABOUT", callback_data="masha_"),
@@ -110,7 +110,7 @@ buttons = [
 HELP_STRINGS = """
 SURTUR WITH NEW FEATURES
 
-꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF SURTUR*꧂
+꧁*CHECK ALL BUTTON BELOW TO EXPLORE EVERY COMMANDS OF NICK_FURY*꧂
 
 𖣘 *All commands can either be used with* `/` *or* `!`.
 
