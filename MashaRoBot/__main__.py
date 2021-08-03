@@ -79,7 +79,7 @@ PM_START_TEXT = """Hello, My name is NICK_FURY
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Pro bot was made by [IN CK_FURY](https://t.me/god_of_marvels)
+This Pro bot was made by [NICK_FURY](https://t.me/god_of_marvels)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
@@ -694,7 +694,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Me the sage of the six paths is back to serve you.✨")
+            dispatcher.bot.sendMessage(f"@kochi_hevan", "Me the sage of the six paths is back to serve you.✨")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
