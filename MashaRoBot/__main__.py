@@ -79,7 +79,7 @@ PM_START_TEXT = """Hello, My name is SURTUR
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Pro bot was made by [ℙℝ𝕀ℕℂ𝔼](https://t.me/prince_3011)
+This Pro bot was made by [SURTUR](https://t.me/god_of_marvels)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
